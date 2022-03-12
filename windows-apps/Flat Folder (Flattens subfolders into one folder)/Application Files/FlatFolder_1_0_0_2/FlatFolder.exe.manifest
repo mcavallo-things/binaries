@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="FlatFolder.exe" version="1.0.0.2" publicKeyToken="755a92d1d7ce7e65" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FlatFolder" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FlatFolder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlatFolder.exe" size="18432">
+      <assemblyIdentity name="FlatFolder" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>IyBcw48zhtjlNkO0I43P4ePLU/E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="readme.txt" size="134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kwAwm+pYFsn3lbYO3MYf+XikmQo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=russell-PC-VM\russell" issuerKeyHash="45abf3e1aec4e4e9f3a924c4b7207d379192cea8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tt8Bh2UZAOJ84PZM1u3rrQTMofM=</DigestValue></Reference></SignedInfo><SignatureValue>cyElHqB2AN5hwznEz0BE+BtH7t81tK7w2+/EroR843lkK+u/Mwi6p+8hpAR+EvR6z7qj9VYxFQY+tIZ+TVjgsKxn35TCxHy8HN6CWk0wuE8VGnnSY12N1PdwoOI/wfATNJ4EkZAWF0p8tgMp+xiK/jgfMiNutSk8tgj9SK5q0jU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zCbVnAT36vcrx+89u68JvoDAiSvMcJ3UIq7jVAA1bNS+v2u41UMrbfsyTLIohkasBT/WcWWz/naf61FGBZ2XUkbymn7eZyXeYtzLkhweuZxFAXVKvQNDM8qzEq23V6a2Aa9qgAI8bPsc1i2bklkmB2cVMiNKW1rOq45YyjcaLm8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f3a1cc04adebedd64cf6e07ce20019658701dfb6" Description="" Url=""><as:assemblyIdentity name="FlatFolder.exe" version="1.0.0.2" publicKeyToken="755a92d1d7ce7e65" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=russell-PC-VM\russell</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LyUhWNujXR8+xURruZQZilrNmQ4=</DigestValue></Reference></SignedInfo><SignatureValue>xe0inX47h4dKoYZIbjGHf2FbZwPqlnF+yCH+frMQbv/HWGYEq+m5G2Qz5qw3eE7f2YIGmmpEtVTFMdmUqnCJGSTK/eVYsQtYCaqVP5FvC9Ojkx9Zu2kzy7Fb7YgTe0wnlvU7gwU9x+NAwBUC4VOl4ewAdf7dxTQynj3fgriyXO4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zCbVnAT36vcrx+89u68JvoDAiSvMcJ3UIq7jVAA1bNS+v2u41UMrbfsyTLIohkasBT/WcWWz/naf61FGBZ2XUkbymn7eZyXeYtzLkhweuZxFAXVKvQNDM8qzEq23V6a2Aa9qgAI8bPsc1i2bklkmB2cVMiNKW1rOq45YyjcaLm8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQX4yjkhISt7VKNvL+PkZ0qjANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAcgB1AHMAcwBlAGwAbAAtAFAAQwAtAFYATQBcAHIAdQBzAHMAZQBsAGwwHhcNMTEwODE0MjI0OTU5WhcNMTIwODE0MDQ0OTU5WjA1MTMwMQYDVQQDHioAcgB1AHMAcwBlAGwAbAAtAFAAQwAtAFYATQBcAHIAdQBzAHMAZQBsAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMwm1ZwE9+r3K8fvPbuvCb6AwIkrzHCd1CKu41QANWzUvr9ruNVDK237MkyyKIZGrAU/1nFls/52n+tRRgWdl1JG8pp+3mcl3mLcy5IcHrmcRQF1Sr0DQzPKsxKtt1emtgGvaoACPGz7HNYtm5JZJgdnFTIjSltazquOWMo3Gi5vAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAPmgZZVwwVbn18lToy/6MKARCqEQ5wLQc6k/kSGQ1uv2IDJP7vXR/AY5qawGCSrzxPX0DB6g9qb4mZInSiOZcSEzmGlKt3GzrTef6K0KOB1CE3e/V9BnsazfwexRH1Uy+PaV3RGpp5q1Ygpd4mFZ0tSHl28JN+dgOHJ8jBofpPS0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
