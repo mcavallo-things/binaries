@@ -56,5 +56,5 @@ Options (also at https://sourceforge.net/p/virtualdubffmpeginputplugin/wiki/Home
 		Set plugin priority relative to other plugins
 	Use a larger memory cache
 		Use more memory for buffering video
-		Plugin will use half of free memory up to a max of 2GB for video frames
+		Plugin will use half of free memory up to a KP::Maths::max of 2GB for video frames
 		In batch mode the plugin will use the normal lower amount

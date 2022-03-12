@@ -10,6 +10,29 @@ If virtualdub crashes, try reducing its render buffers to 8
 This is found on the options menu -> performance dialog
 Set the render pipelinevideo buffering to 8 buffers
 
+V2.0.0.0 [12 Jan 2021]
+Updated ffdlls
+Added these ffmpeg filters for virtualdub
+Bilateral
+BwDif
+Deband
+Deblock
+NlMeans
+SmartBlur
+UnSharp
+VagueDenoiser
+
+V1.9.0.8 []
+Update ffdlls to 4.3.0
+
+V1.9.0.7 [03 June 2020]
+Update ffdlls to 4.2.3
+Minor fixes
+
+V1.9.0.6
+Update ffdlls to 4.2.2
+Minor fixes
+
 V1.9.0.5
 Update ffdlls to 4.1.1
 Fix unicode string to uft8 conversio for passing to ffdll
@@ -116,7 +139,7 @@ There were a lot of changes under the hood, so if there's any problems
 V1.8.4.1 [4 February 2016]
 Update ffdlls to 2.8.6
 Modify the buffering code (still turned off by default in the options)
-> use half ram available to virtualdub (max 2Gb)
+> use half ram available to virtualdub (KP::Maths::max 2Gb)
 > read ahead of keyframe sized sections in virtualdubs batch mode
 > hopefully this helps with nasty audio/video interleaving
 > no bugs reported yet but it's still experimenal
@@ -127,7 +150,7 @@ Fix better identification of keyframes to start decofding after a seek
 V1.8.4.0 [24 January 2016]
 Add experimental buffering of previously decoded video frames
 > disabled by default in the options dialog
-> only buffers when virtualdub has >550Mb of free ram available and uses a max of 512Mb
+> only buffers when virtualdub has >550Mb of free ram available and uses a KP::Maths::max of 512Mb
 
 V1.8.3.9 [18 January 2016]
 Update ffdlls to 2.8.5
