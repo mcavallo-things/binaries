@@ -1,0 +1,90 @@
+
+/*** TI-82 & TI-83 ***/
+F1 - Y=
+F2 - Window
+F3 - Zoom
+F4 - Trace
+F5 - Graph
+Esc - Mode
+Caps lock - Alpha
+` - X,T,theta
+= - Stat
+F6 - Math
+F7 - Matrx
+F8 - Prgm
+F9 - Vars
+PgDn - Clear
+End - x^-1
+Insert - sin
+Home - cos
+PgUp - tan
+Num lock - ^
+; - x^2
+[ - (
+] - )
+' - log
+\ - ln
+Tab - Store
+Scroll lock - On
+
+
+Citation: http://ftp83plus.net/Tutorials/tut13A.htm
+
+
+/*** TI-85 & TI-86 ***/
+Esc - Exit
+` - More
+Caps lock - Alpha
+Ctrl - x-var
+F6 - Graph
+F7 - Table
+F8 - Prgm
+F9 - Custom
+PgDn - Clear
+' - log
+Insert - sin
+Home - cos
+PgUp - tan
+Num lock - ^
+\ - ln
+End - EE
+[ - (
+] - )
+; - x^2
+Tab - Store
+Scroll lock - On
+
+
+/*** TI-89 ***/
+F6 - Catalog
+F9 - Apps
+Tab - Store
+Left ctrl - Diamond
+Left alt - 2nd
+[ - (
+] - )
+Caps lock - Alpha
+` - Mode
+\ - |
+Ins - EE
+Del - Clear
+Scroll lock - On
+
+
+/*** TI-92 ***/
+F9 - Apps
+; - Theta
+Tab - Store
+Left ctrl - Diamond
+Left alt - 2nd
+[ - (
+] - )
+Caps lock - Hand/Lock
+` - Mode
+\ - Ln
+Ins - Sin
+Home - Cos
+PgUp - Tan
+Del - Clear
+Scroll lock - On
+Num Pad Enter - Enter below cursor pad 

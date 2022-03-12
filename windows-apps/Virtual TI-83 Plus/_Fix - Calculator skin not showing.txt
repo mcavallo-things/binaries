@@ -1,0 +1,5 @@
+
+  Right click the Ti-83+'s screen (dropdown menu)
+    -> Hover over: "Skin for Current Calculator"
+	    -> Sub-menu should contain all skins (.skn file extension) located in the same directory as the Ti-83+ .exe file, which fit the Virtual Ti-83+
+			
